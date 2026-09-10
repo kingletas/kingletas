@@ -4,9 +4,10 @@ I build and run the platform under Magento and Adobe Commerce stores: the infras
 
 Most of my day is PHP, Python and Ansible. I'm ramping up in Go, Rust and Ruby.
 
-#### Proving a Magento deploy works
+#### Magento tooling
 
 - **[bluetir](https://github.com/kingletas/bluetir)** drives a real browser through a storefront, adds to cart and places an order. Luma, Hyvä and ScandiPWA are each one YAML profile, so a new store means a new profile rather than new code.
+- **[manipulus](https://github.com/kingletas/manipulus)** works out which RequireJS modules each Magento 2 page type loads, straight from the codebase, and bundles them. No browser, no Node, no running store. Its walkthrough takes a real store from 226 JavaScript requests to 15.
 - **[drexbot](https://github.com/kingletas/drexbot)** runs regression, acceptance, behaviour and performance tests against a Magento storefront.
 - **[harness-kernel](https://github.com/kingletas/harness-kernel)** is the test kernel drexbot is built on. It knows nothing about Magento: it owns the run, the verdicts and the reports, so it can back a harness for anything.
 
