@@ -18,4 +18,4 @@ Most of my day is PHP, Python and Ansible. I'm ramping up in Go, Rust and Ruby.
 
 #### Elsewhere
 
-[LinkedIn](https://www.linkedin.com/in/luistineo/) · [Magento notes from 2012](http://www.kingletas.com)
+[kingletas.com](https://www.kingletas.com) · [LinkedIn](https://www.linkedin.com/in/luistineo/)
